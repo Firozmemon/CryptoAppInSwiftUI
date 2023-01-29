@@ -15,7 +15,7 @@ struct SettingsView: View {
     let youtubeURL = URL(string: "https://www.youtube.com/c/swiftfulthinking")!
     let coffeeURL = URL(string: "https://www.buymeacoffee.com/nicksarno")!
     let coingeckoURL = URL(string: "https://www.coingecko.com")!
-    let personalURL = URL(string: "https://www.nicksarno.com")!
+    let personalURL = URL(string: "https://github.com/Firozmemon")!
     
     var body: some View {
         NavigationView {
@@ -105,7 +105,7 @@ extension SettingsView {
                     .resizable()
                     .frame(width: 100, height: 100)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
-                Text("This app was developed by Nick Sarno. It uses SwiftUI and is written 100% in Swift. The project benefits from multi-threading, publishers/subscribers, and data persistance.")
+                Text("This app was developed by Firoz Memon. It uses SwiftUI and is written 100% in Swift. The project benefits from multi-threading, publishers/subscribers, and data persistance.")
                     .font(.callout)
                     .fontWeight(.medium)
                     .foregroundColor(Color.theme.accent)
