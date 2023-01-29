@@ -2,7 +2,7 @@
 //  StatisticView.swift
 //  CryptoAppInSwiftUI
 //
-//  Created by Firoj Memon on 26/01/23.
+//  Created by Firoz Memon on 26/01/23.
 //
 
 import SwiftUI
